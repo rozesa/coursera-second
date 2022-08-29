@@ -1,0 +1,100 @@
+h1 {
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 
+    'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+div.relative {
+    position:relative
+}
+div.absolute1 {
+    position: absolute; 
+    top:0;
+    right: 0;
+    border:1px solid black;
+    background-color: pink;
+    text-align: center;
+    padding: 5px;       
+} 
+
+div.absolute2 {
+    position: absolute; 
+    top:0;
+    right: 0;
+    border:1px solid black;
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 5px;       
+} 
+
+div.absolute3 {
+    position: absolute; 
+    top:0;
+    right: 0;
+    border:1px solid black;
+    background-color: rgb(255, 221, 0);
+    text-align: center;
+    padding: 5px;       
+} 
+
+.row {
+    width:100%;
+}
+
+@media (min-width: 1200px) {
+    .col-lg-3, .col-lg-4, .col-lg-6, .col-lg-12 {
+        float:left;
+        border:1px solid black;
+        background-color: gray;
+        text-align: left;
+        padding-top: 25px;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin: 15px;
+    }
+    .col-lg-12 {
+    width:100%;    
+    }
+    .col-lg-4 {
+    width: 28%;   
+    }
+}
+
+@media (min-width: 950px) and (max-width:1199px) {
+    .col-md-12, .col-md-6 {
+        float:left;
+        border:1px solid black;
+        background-color: gray;
+        text-align: left;
+        padding-top: 25px;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin: 15px;
+    }
+    .col-md-12 {
+    width:94%;    
+    }
+    .col-md-6 {
+    width: 44.2%;   
+    }
+}
+
+@media (min-width: 1px) and (max-width:949px) {
+    .col-sm-12 {
+        float:left;
+        border:1px solid black;
+        background-color: gray;
+        text-align: left;
+        padding-top: 25px;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-top: 15px;
+        margin-bottom:15px;
+    }
+    .col-sm-12 {
+    width:90%;    
+    }
+}
+
